@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, PaymentElement, useStripe, useElements } from '@stripe/react-stripe-js';
 
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '');
+const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || 'pk_live_51Sa49S2OuXdsEk61uiFJYFAwecGziydOVZHFAdxQaEtVoUPD17bi9P58E8KD3pU1OHByS2YA4sVCBb5Nu8KFdo9H00YrgzjniG');
 
 interface CheckoutFormProps {
   onSuccess: () => void;
