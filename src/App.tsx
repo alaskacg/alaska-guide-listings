@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import ListingSuccess from "@/pages/ListingSuccess";
 interface Guide {
   id: number;
   name: string;
